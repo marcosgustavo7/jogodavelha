@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="jogo.js" defer></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    <div id="container1">
+        <div id="title">
+            <h1><u>JOGO da VELHA</u></h1>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div id="type">
+            <label>Tipo de Jogo:</label>
+            <br>
+            <label>Local</label>
+            <input type="radio" id="local" name="tipo" checked>
+            <label>Máquina</label>
+            <input type="radio" id="bot" name="tipo">
+        </div>
+    </div>
+
+
+    <table>
+        <tr>
+            <td><img src="img/transp.png" id="c1" alt="imagem" onclick="return checkjogo(this.id)"></td>
+            <td class = "tdmid"><img src="img/transp.png" id="c2" alt="imagem" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" id="c3" alt="imagem" onclick="return checkjogo(this.id)"></td>
+        </tr>
+        <tr id = ttr>
+            <td><img src="img/transp.png" id="c4" alt="imagem"onclick="return checkjogo(this.id)"></td>
+            <td class = "tdmid"><img src="img/transp.png" id="c5" alt="imagem"onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" id="c6" alt="imagem"onclick="return checkjogo(this.id)"></td>
+        </tr>
+        <tr>
+            <td><img src="img/transp.png" id="c7" alt="imagem"onclick="return checkjogo(this.id)"></td>
+            <td class = "tdmid"><img src="img/transp.png" id="c8" alt="imagem"onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" id="c9" alt="imagem"onclick="return checkjogo(this.id)"></td>
+        </tr>
+    </table>
+
+    <div id="container3">
+        <div id="msg">
+            <!--Span de resultado-->
+        </div>
+    </div>
+
+    <div id = "container4">
+        <input type="button" value=" Jogar de Novo " id="button" onClick="window.location.reload()">
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    color: white;
+    background-image: url("img/galaxy.jpg");
+    background-size: cover ;
+    background-attachment: fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px
+}
+
+#title{
+    text-align: center;
+    font-size: 20pt;
+    color: #fff;
+    text-shadow:
+      0 0 5px  rgb(184, 97, 255),
+      0 0 10px rgb(184, 97, 255),
+      0 0 15px rgb(184, 97, 255),
+      0 0 20px rgb(184, 97, 255),
+      0 0 30px rgb(184, 97, 255),
+      0 0 40px rgb(184, 97, 255),
+      0 0 50px rgb(184, 97, 255),
+      0 0 60px rgb(184, 97, 255);
+  }
+
+#container2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+#type{
+    background-color: black;
+    line-height: 30px;
+    padding: 10px 15px;
+    border: 2px solid blueviolet;
+    box-shadow: 0 0 30px blueviolet;
+}
+
+
+table{
+    padding: 50px 50px;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+#ttr{
+    border-bottom: 5px solid #fff;
+    border-top: 5px solid #fff;
+}
+
+.tdmid{
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+#container3{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+
+}
+
+#msg{
+    font-size: 18pt;
+    text-shadow:
+      0 0 5px  rgb(184, 97, 255),
+      0 0 10px rgb(184, 97, 255),
+      0 0 15px rgb(184, 97, 255),
+      0 0 20px rgb(184, 97, 255),
+      0 0 30px rgb(184, 97, 255),
+      0 0 40px rgb(184, 97, 255),
+      0 0 50px rgb(184, 97, 255),
+      0 0 60px rgb(184, 97, 255);
+}
+
+#container4{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+
+}
+
+#button {
+    -webkit-text-stroke: 0.5px rgb(184, 97, 255);
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 0 30px blueviolet;
+}
